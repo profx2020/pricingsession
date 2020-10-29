@@ -11,7 +11,7 @@ public class PricingSessionRequestController {
 	@GetMapping("/pricingSessionRequest")
 	public String getPricingSessionRequest(){
 		System.out.print("PricingSessionRequest controller");
-		return "PricingSessionRequest";
+		return "PricingSessionRequestTest";
 	}
 
 }
